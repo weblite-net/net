@@ -150,5 +150,10 @@ textarea{
         margin: 2%;
         width: 96%;;
     }
+
+    #buttons{
+        position: sticky;
+        top: 0;
+    }
     
 }
