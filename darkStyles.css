@@ -131,29 +131,66 @@ textarea{
 
 }
 
+.container {
+      height: 100vh;
+      width: 100%;
+    	display: flex;
+    	justify-content:flex-start;
+    	flex-direction:column;
+      background: linear-gradient(to bottom right, #005566, #0d1721, #0d1721 , #06202d, #004f80);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
 
+.navbar{
+	background-color: #0d1721;
+	height: fit-content;
+	width: 95%;
+	float: left;
+	padding-left: 5vh;
+	padding-right: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+#head{
+	color: #f0f0f0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 1000;
+   float:left;
+}
+
+#text{
+	padding: 15vh;
+	color: #f0f0f0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 1000;
+   float:left;
+}
+
+.link{
+	float: right;
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+#open{
+	align-self: center;
+	width: 30vh;
+	height: 10vh;
+	border-radius: 25vh;
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	background-color: #04AA6D;
+	color: #f0f0f0;
+	display: block;
+}
 
 @media(max-width:700px){
     #main{
-        /* background: yellow; */
-        width: 98%;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
     #editor{
-        margin: 2%;
-        width: 96%;
-    }
-
     #output{
-        margin: 2%;
-        width: 96%;;
-    }
-
-    #buttons{
-        position: sticky;
-        top: 0;
-    }
-    
+    #buttons{    
 }
