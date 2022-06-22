@@ -1,3 +1,9 @@
+body{
+      background: linear-gradient(to bottom right, #005566, #0d1721, #0d1721 , #06202d, #004f80);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
 #signup{
 	position: fixed;
 	padding: 50px;
